@@ -1,6 +1,7 @@
 import logo from '../../assets/logo.svg';
 
 import './index.css';
+import 'bootstrap/dist/css/bootstrap.min.css';
 
 const Home = () => {
   return (
