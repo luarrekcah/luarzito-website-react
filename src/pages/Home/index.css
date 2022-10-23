@@ -1,5 +1,6 @@
 .App {
   text-align: center;
+  background-color: #282c34;
 }
 
 .App-logo {
@@ -24,11 +25,9 @@
 
 .section {
   background-color: #16191f;
-  padding-left: 80px;
-  padding-right: 80px;
-  padding-top: 40px;
-  padding-bottom: 40px;
   color: white;
+  padding-top: 30px;
+  padding-bottom: 30px;
 }
 
 h1 {

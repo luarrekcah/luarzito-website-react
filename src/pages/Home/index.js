@@ -5,6 +5,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 
 import Button from 'react-bootstrap/Button';
 import Stack from 'react-bootstrap/Stack';
+import Container from 'react-bootstrap/Container';
 
 import LuarzitoNavbar from '../../components/LuarzitoNavbar';
 import LuarzitoFooter from '../../components/LuarzitoFooter';
@@ -24,9 +25,11 @@ const Home = () => {
         </Stack>
       </header>
       <main>
-        <div className='section' id='commandsSection'>
-          <h1>Comandos</h1>
-          <LuarzitoCommands />
+        <div className='section'>
+          <Container id='commandsSection'>
+            <h1>Comandos</h1>
+            <LuarzitoCommands />
+          </Container>
         </div>
       </main>
       <LuarzitoFooter />
