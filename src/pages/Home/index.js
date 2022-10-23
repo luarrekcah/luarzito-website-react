@@ -16,6 +16,7 @@ const Home = () => {
     <div className="App">
       <LuarzitoNavbar />
       <header className="App-header">
+        <Container>
         <img src={logo} className="App-logo" alt="logo" />
         <h1>Luarzito</h1>
         <p>Um simples bot para o Discord!</p>
@@ -23,6 +24,7 @@ const Home = () => {
           <Button variant="secondary" href='https://discord.com/api/oauth2/authorize?client_id=743841329334845530&permissions=2339952782455&scope=bot%20applications.commands'>Adicionar bot no meu servidor!</Button>
           <Button variant="outline-secondary" href='#commandsSection'>Comandos</Button>
         </Stack>
+        </Container>
       </header>
       <main>
         <div className='section'>
