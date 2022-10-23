@@ -2,6 +2,8 @@ import '../index.css';
 
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 
+import { faGithub } from '@fortawesome/free-brands-svg-icons'
+
 /**
  * https://fontawesome.com/icons
  */
@@ -12,7 +14,7 @@ const LuarzitoFooter = () => {
             <div>
                 Luarzito &#169; 2022 | Raul Rodrigues
             </div>
-            <p><FontAwesomeIcon icon="fa-brands fa-github" /></p>
+            <FontAwesomeIcon icon={faGithub} />
         </footer>
     )
 }
