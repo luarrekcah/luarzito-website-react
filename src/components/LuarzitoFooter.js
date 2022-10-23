@@ -14,7 +14,7 @@ const LuarzitoFooter = () => {
             <div>
                 Luarzito &#169; 2022 | Raul Rodrigues
             </div>
-            <FontAwesomeIcon icon={faGithub} />
+            <a className='social-icons' href='https://github.com/luarrekcah'><FontAwesomeIcon icon={faGithub} /></a>
         </footer>
     )
 }
