@@ -22,18 +22,18 @@ const LuarzitoNavbar = () => {
         <Navbar.Toggle aria-controls="responsive-navbar-nav" />
         <Navbar.Collapse id="responsive-navbar-nav">
           <Nav className="me-auto">
-            <Nav.Link href="#features">Comandos</Nav.Link>
-            <Nav.Link href="#pricing">Sobre</Nav.Link>
+            <Nav.Link href="#commandsSection">Comandos</Nav.Link>
+            <Nav.Link href="#about">Sobre</Nav.Link>
             <NavDropdown title="Políticas" id="collasible-nav-dropdown">
-              <NavDropdown.Item href="#action/3.1">Política de Privacidade</NavDropdown.Item>
-              <NavDropdown.Item href="#action/3.2">
+              <NavDropdown.Item href="/pop">Política de Privacidade</NavDropdown.Item>
+              <NavDropdown.Item href="/tos">
                 Termos de uso
               </NavDropdown.Item>
             </NavDropdown>
           </Nav>
           <Nav>
-            <Nav.Link href="#deets">Suporte</Nav.Link>
-            <Nav.Link eventKey={2} href="#memes">
+            <Nav.Link href="https://discord.gg/Y78M6uvJUk">Suporte</Nav.Link>
+            <Nav.Link eventKey={2} href="https://discord.com/api/oauth2/authorize?client_id=743841329334845530&permissions=2339952782455&scope=bot%20applications.commands">
               Adicionar bot
             </Nav.Link>
           </Nav>

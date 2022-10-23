@@ -25,7 +25,20 @@
 }
 
 .App-link {
-  color: #61dafb;
+  color: #01afed;
+}
+
+.section {
+  background-color: #16191f;
+  padding-left: 80px;
+  padding-right: 80px;
+  padding-top: 40px;
+  padding-bottom: 40px;
+  color: white;
+}
+
+h1 {
+  padding-bottom: 40px
 }
 
 main {
