@@ -87,7 +87,7 @@ const LuarzitoCommands = () => {
                         <tr>
                             <td>{i.name}</td>
                             <td>{i.desc}</td>
-                            <td>{i.options}</td>
+                            <td><code>{i.options}</code></td>
                         </tr>
                     )
                 })}
@@ -99,7 +99,7 @@ const LuarzitoCommands = () => {
                         <tr>
                             <td>{i.name}</td>
                             <td>{i.desc}</td>
-                            <td>{i.options}</td>
+                            <td><code>{i.options}</code></td>
                         </tr>
                     )
                 })}
@@ -111,7 +111,7 @@ const LuarzitoCommands = () => {
                         <tr>
                             <td>{i.name}</td>
                             <td>{i.desc}</td>
-                            <td>{i.options}</td>
+                            <td><code>{i.options}</code></td>
                         </tr>
                     )
                 })}
@@ -123,7 +123,7 @@ const LuarzitoCommands = () => {
                         <tr>
                             <td>{i.name}</td>
                             <td>{i.desc}</td>
-                            <td>{i.options}</td>
+                            <td><code>{i.options}</code></td>
                         </tr>
                     )
                 })}
@@ -135,7 +135,7 @@ const LuarzitoCommands = () => {
                         <tr>
                             <td>{i.name}</td>
                             <td>{i.desc}</td>
-                            <td>{i.options}</td>
+                            <td><code>{i.options}</code></td>
                         </tr>
                     )
                 })}

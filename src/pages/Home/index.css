@@ -47,6 +47,8 @@ main {
 
 footer {
   background-color: #282c34;
+  color: white;
+  padding: 40px;
 }
 
 @keyframes App-logo-spin {
