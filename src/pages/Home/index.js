@@ -1,25 +1,26 @@
-import logo from '../../assets/logo.svg';
+import logo from '../../assets/logo.png';
 
 import './index.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
 
+import LuarzitoNavbar from '../../components/LuarzitoNavbar';
+import LuarzitoFooter from '../../components/LuarzitoFooter';
+
 const Home = () => {
   return (
     <div className="App">
+      <LuarzitoNavbar />
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
+        <h1>Luarzito</h1>
+        <p>Um simples bot para o Discord!</p>
       </header>
+      <main>
+        <div>
+          a
+        </div>
+      </main>
+      <LuarzitoFooter />
     </div>
   );
 }
