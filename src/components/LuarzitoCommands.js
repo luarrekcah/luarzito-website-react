@@ -16,7 +16,7 @@ const commands = {
     infos: [
         {
             name: 'ajuda',
-            desc: 'Alguma dúvida sobre mim? Use esse comando!.',
+            desc: 'Alguma dúvida sobre mim? Use esse comando!',
             options: '',
         },
         {
@@ -47,6 +47,11 @@ const commands = {
             name: 'pir',
             desc: 'Pesquisa de Imagem Reversa, pesquise o conteúdo de uma imagem pelo link!',
             options: 'link',
+        },
+        {
+            name: 'wiki',
+            desc: 'Pesquise temros pela Wikipedia',
+            options: 'query',
         },
     ],
     users: [
@@ -87,7 +92,7 @@ const LuarzitoCommands = () => {
                         <tr>
                             <td>{i.name}</td>
                             <td>{i.desc}</td>
-                            <td><code>{i.options}</code></td>
+                            <td><code>{i.options === '' ? 'no args' : i.options}</code></td>
                         </tr>
                     )
                 })}
@@ -99,7 +104,7 @@ const LuarzitoCommands = () => {
                         <tr>
                             <td>{i.name}</td>
                             <td>{i.desc}</td>
-                            <td><code>{i.options}</code></td>
+                            <td><code>{i.options === '' ? 'no args' : i.options}</code></td>
                         </tr>
                     )
                 })}
@@ -111,7 +116,7 @@ const LuarzitoCommands = () => {
                         <tr>
                             <td>{i.name}</td>
                             <td>{i.desc}</td>
-                            <td><code>{i.options}</code></td>
+                            <td><code>{i.options === '' ? 'no args' : i.options}</code></td>
                         </tr>
                     )
                 })}
@@ -123,7 +128,7 @@ const LuarzitoCommands = () => {
                         <tr>
                             <td>{i.name}</td>
                             <td>{i.desc}</td>
-                            <td><code>{i.options}</code></td>
+                            <td><code>{i.options === '' ? 'no args' : i.options}</code></td>
                         </tr>
                     )
                 })}
@@ -135,7 +140,7 @@ const LuarzitoCommands = () => {
                         <tr>
                             <td>{i.name}</td>
                             <td>{i.desc}</td>
-                            <td><code>{i.options}</code></td>
+                            <td><code>{i.options === '' ? 'no args' : i.options}</code></td>
                         </tr>
                     )
                 })}

@@ -29,7 +29,8 @@
 
 
 h1 {
-  padding-bottom: 40px
+  padding-bottom: 40px;
+  color: white;
 }
 
 main {
@@ -40,10 +41,13 @@ main {
 /* MIDDLE */
 
 .section {
-  background-color: #16191f;
   color: white;
   padding-top: 30px;
   padding-bottom: 30px;
+}
+
+.dark {
+  background-color: #16191f;
 }
 
 /* FOOTER */
