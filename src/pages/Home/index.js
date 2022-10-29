@@ -31,17 +31,6 @@ const Home = () => {
             <LuarzitoCommands />
           </Container>
         </div>
-        <div className='section dark'>
-          <Container>
-            <h1>Recursos</h1>
-            <Row>
-              <Col>Comandos</Col>
-              <Col>
-              <img src='https://cdn.discordapp.com/attachments/778691566168440854/1000857849674600468/Sem_titulo-1.png' className="resources-images" alt="Recursos Imagem" />
-              </Col>
-            </Row>
-          </Container>
-        </div>
       </main>
       <LuarzitoFooter />
     </div>
