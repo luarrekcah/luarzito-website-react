@@ -158,7 +158,7 @@ const LuarzitoCommands = () => {
           </Col>
         </Row>
       </Form>
-      <Table striped bordered hover responsive variant="dark">
+      <Table style={{marginTop: 20}} striped bordered hover responsive variant="dark">
         <thead>
           <tr>
             <th>Categoria</th>
