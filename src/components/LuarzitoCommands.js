@@ -172,9 +172,9 @@ const LuarzitoCommands = () => {
             category.commands.map((command) => (
               <tr key={command.name}>
                 <td>{category.category}</td>
-                <td>{command.name}</td>
+                <td><code>/{command.name}</code></td>
                 <td>{command.description}</td>
-                <td>{command.parameters}</td>
+                <td><code>{command.parameters}</code></td>
               </tr>
             ))
           )}
