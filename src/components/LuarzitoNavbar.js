@@ -9,7 +9,7 @@ const LuarzitoNavbar = () => {
   return (
     <Navbar collapseOnSelect expand="lg" bg="dark" variant="dark">
       <Container>
-        <Navbar.Brand href="#home">
+        <Navbar.Brand href="/#home">
         <img
               src={logo}
               width="30"
@@ -22,8 +22,8 @@ const LuarzitoNavbar = () => {
         <Navbar.Toggle aria-controls="responsive-navbar-nav" />
         <Navbar.Collapse id="responsive-navbar-nav">
           <Nav className="me-auto">
-            <Nav.Link href="#commandsSection">Comandos</Nav.Link>
-            <Nav.Link href="#about">Sobre</Nav.Link>
+            <Nav.Link href="/#commandsSection">Comandos</Nav.Link>
+            <Nav.Link href="/#about">Sobre</Nav.Link>
             <NavDropdown title="Políticas" id="collasible-nav-dropdown">
               <NavDropdown.Item href="/pop">Política de Privacidade</NavDropdown.Item>
               <NavDropdown.Item href="/tos">
