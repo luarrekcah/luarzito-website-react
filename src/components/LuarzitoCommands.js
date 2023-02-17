@@ -39,6 +39,11 @@ const commands = {
     ],
     search: [
         {
+            name: 'chatgpt',
+            desc: 'NOVIDADE DO MOMENTO AGORA NO LUARZITO!!!',
+            options: 'mensagem',
+        },
+        {
             name: 'is',
             desc: 'Image Search - Pesquise Imagens pelo nome',
             options: 'query',
@@ -53,6 +58,7 @@ const commands = {
             desc: 'Pesquise temros pela Wikipedia',
             options: 'query',
         },
+
     ],
     users: [
         {
